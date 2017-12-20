@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'theenglishway'
 SITENAME = u'theenglishway'
-SITEURL = ''
+SITEURL = 'theenglishway.eu'
 
 PATH = 'content'
 
@@ -20,19 +20,27 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
-SOCIAL = (('My GitHub', 'https://github.com/theenglishway'),)
+SOCIAL = (('My GitHub', 'https://github.com/theenglishway'),
+          ('My Twitter', 'https://twitter.com/the_english_way'))
 
 DEFAULT_PAGINATION = False
-THEME = 'themes/pelican-alchemy/alchemy'
+#THEME = 'themes/pelican-alchemy/alchemy'
+THEME = 'notmyidea'
+SITEIMAGE = 'images/theenglishway_profile.jpg'
+SITESUBTITLE = "Thought I'd've something more to say"
 DEFAULT_DATE = 'fs'
+TWITTER_USERNAME = 'the_english_way'
+
+FEED_RSS = 'feeds/all.rss.xml'
 
 ISSO_SERVER = "http://comments.theenglishway.eu"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
