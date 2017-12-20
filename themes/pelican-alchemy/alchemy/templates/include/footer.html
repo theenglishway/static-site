@@ -14,3 +14,7 @@
     / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
   </p>
 </div>
+
+{% if ISSO_SERVER %}
+  <script data-isso="{{ ISSO_SERVER }}/" src="{{ ISSO_SERVER }}/js/embed.min.js"></script>
+{% endif %}

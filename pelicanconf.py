@@ -32,5 +32,7 @@ DEFAULT_PAGINATION = False
 THEME = 'themes/pelican-alchemy/alchemy'
 DEFAULT_DATE = 'fs'
 
+ISSO_SERVER = "http://comments.theenglishway.eu"
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
