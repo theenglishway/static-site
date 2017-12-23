@@ -13,6 +13,8 @@ FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
 SSH_TARGET_DIR=~/projects/static-site
+SSH_PORT ?= 22
+SSH_USER ?= `whoami`
 
 S3_BUCKET=my_s3_bucket
 
