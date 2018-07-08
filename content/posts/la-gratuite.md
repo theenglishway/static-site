@@ -4,7 +4,7 @@ Tags: internet, société
 Summary: Ou comment y perdre même quand on ne paie rien
 Slug: la-gratuite
 Lang: fr
-Status: published
+Status: draft
 
 *English translation available [**here**]({filename}la-gratuite-en.md)*
 

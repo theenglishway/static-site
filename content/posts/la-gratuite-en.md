@@ -4,7 +4,7 @@ Tags: internet, société
 Summary: Or how you may be at loss in spite of not paying anything
 Slug: la-gratuite
 Lang: en
-Status: published
+Status: draft
 
 <a title="By Tom Morris (Own work) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AFree_Beer.jpg"><img width="512" alt="Free Beer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Free_Beer.jpg/512px-Free_Beer.jpg"/></a>
 ___
@@ -77,7 +77,7 @@ dozens of thousands (or even more) of their fellows on a regular basis,
 spreading their knowledge or inviting them to think. Even if their viewership
 is less that that, is it not the kind of truly value-creating activity that it
 would be fair and desirable to promote and support, and therefore ... to
-remunerate (at the very least to allow it to continue) ? Would it not be a gain 
+remunerate (at the very least to allow it to continue) ? Would it not be a gain
 for society as a whole if those amateurs were allowed to fully focus on what
 they patently do so well, or even to turn it into a full-time job ? Would it not
 be worth changing our habits in order to help them towards that goal ?
