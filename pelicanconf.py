@@ -6,7 +6,7 @@ AUTHOR = u'theenglishway'
 SITENAME = u'theenglishway'
 SITEURL = u'http://localhost:8000'
 
-SITETITLE = 'The English way'
+SITETITLE = 'theenglishway'
 SITESUBTITLE = "Thought I'd've something more to say"
 SITELOGO = '/images/theenglishway_profile.jpg'
 FAVICON = '/images/favicon.ico'
