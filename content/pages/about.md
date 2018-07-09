@@ -30,3 +30,8 @@ des réflexions personnelles sur la société et le web en général.
 Si en plus de m'aider à organiser mes idées et garder trace de mon propre
 parcours, mes écrits peuvent servir à certains qui tomberaient par hasard
 dessus, c'est gagnant-gagnant, comme dirait l'autre !
+
+(Vous pouvez aussi jeter un oeil à [mon premier article][blog-why] pour en
+savoir plus)
+
+[blog-why]: /un-blog-pour-quoi-faire.html
