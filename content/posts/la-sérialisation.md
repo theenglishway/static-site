@@ -89,7 +89,26 @@ bien fichue, et il suffit d'ajouter une classe avec des méthodes `serialize`
 l'on pourra le valider.
 
 
+## L'objet `Request` de Falcon
 
+Ici aussi on dispose de quelques champs dans lesquels aller piocher le format
+qui nous intéresse : `media`, `stream`, ou `bounded_stream`.
+
+### `stream`
+
+Ce champ est le miroir du champ du même nom dans l'objet `Response`. Attention
+toutefois, dans les cas limites le comportement de ce stream dépend du serveur
+WSGI employé, et il est possible de rester bloqué en lecture dans certains
+cas (si la requête est mal formée, par exemple).
+
+### `bounded_stream`
+
+Une version "safe" et normalisée du `stream` brut, qui présente le même contenu
+et la même interface, mais sans les risques de blocage.
+
+### `media`
+
+Là aussi c'est le miroir du champ du même nom de l'objet `Response`.
 
 
 2. Dans tous les cas, les objets renvoyés par SQLAlchemy ne sont pas sérialisables en JSON
