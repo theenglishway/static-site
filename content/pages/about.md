@@ -1,5 +1,6 @@
-title: À propos / About
+title: À propos
 status: published
+priority: 1
 
 ---
 

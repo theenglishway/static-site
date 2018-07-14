@@ -1,5 +1,6 @@
 title: Feeds par catégorie
 status: published
+priority: 5
 
 ---
 

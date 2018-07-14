@@ -44,6 +44,8 @@ AUTHOR_FEED_RSS = None
 USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
+PAGE_ORDER_BY = 'priority'
+PAGES_SORT_ATTRIBUTE = 'priority'
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
