@@ -2,7 +2,7 @@ Title: Un blog, pour quoi faire ?
 Category: 3615 ma vie mon oeuvre
 Tags: 3615, meta
 Date: 2018/07/09 20:00
-Modified: 2018/07/10 9:00
+Modified: 2018/07/14 18:00
 Summary: Hein, pour quoi ?
 Image: /images/confused.gif
 Lang: fr
@@ -43,10 +43,14 @@ consacre presque 100% de mon temps à un projet de plateforme web (domaine auque
 je ne connaissais strictement RIEN il y a encore un an). Au risque de faire pleurer mes
 anciens collègues et néanmoins amis, ça parlera déjà beaucoup du
 **merveilleux domaine des technologies Web et de mon exploration de son écosystème**,
-avec pas mal d'articles techniques que j'espère un tant soit peu didactiques. Et
+avec pas mal d'articles techniques qui me serviront un peu de pense-bêtes et
+pourront peut-être servir à d'autres. Et
 puisqu'il est tout de même instructif de travailler de la manière qu'on le souhaite,
 il y aura sûrement des réflexions sur
 **le développement en général, l'ingénierie logicielle, la conduite de projet**, ...
+J'essaierai aussi de faire de mon mieux pour démystifier un peu ce domaine où
+beaucoup se prennent trop au sérieux, avec
+**des articles didactiques sur l'univers de l'informatique**.
 
 Ensuite, et puisque il se trouve que j'ai bien envie que ce projet aboutisse à
 quelquechose et me permette un jour d'en vivre un tant soit peu, je suis aussi
