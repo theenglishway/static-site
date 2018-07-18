@@ -83,12 +83,11 @@ ailleurs
 * Pour ceux qui savent comment ça marche, vous avez la possibilité de
 **vous abonner à [un flux RSS][feed]**, ce qui vous permettra d'être tout de suite
 au courant de mes nouvelles et passionnantes aventures. Il y aura aussi
-**[des flux RSS par catégorie][category-feeds]** si seule une partie de mes
+**[des flux RSS par catégorie][flux-rss]** si seule une partie de mes
 écrits vous intéresse.
     - Pour ceux qui ne savent pas ce qu'est un flux RSS, voir
-  [cette vidéo très claire][flux-rss-pour-les-nuls] ... mais demander ensuite
-  en commentaire quel site/appli utiliser, les infos de cette vidéo datant un
-  peu
+  [cette page][flux-rss] ... Et n'hésitez pas à demander des conseils en
+  commentaire
 * Si vous aussi vous voulez un blog comme ça, avec des articles écrits en
 Markdown et versionnés sous Git, tous les détails sont en bas de la page (il
 faut un peu mettre les mains dans le cambouis - voire BEAUCOUP si les mots
@@ -98,5 +97,5 @@ A bientôt !
 
 [confused]: {filename}/images/confused.gif
 [feed]: /feeds/all.atom.xml
-[category-feeds]: /pages/feeds-par-categorie.html
+[flux-rss]: /pages/flux-rss.html
 [flux-rss-pour-les-nuls]: https://www.youtube.com/watch?v=smdlRrXasjg

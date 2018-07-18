@@ -57,7 +57,7 @@ LINKS = ()
 # Social widget
 SOCIAL = (('github', 'https://github.com/theenglishway'),
           ('twitter', 'https://twitter.com/the_english_way'),
-          ('rss', '//theenglishway.eu/feeds/all.atom.xml'))
+          ('rss', '//blog.theenglishway.eu/feeds/all.atom.xml'))
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-NonCommercial-ShareAlike',

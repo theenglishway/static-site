@@ -1,7 +1,10 @@
 {% if ISSO_SERVER %}
-    <hr /><section id="isso-thread"></section>
+    <hr />
+    <h5>Votre adresse mail ne sera pas visible dans les commentaires.</h5>
+    <h5>Merci de <strong>respecter le désir d'anonymat</strong> de l'auteur
+      comme des commentateurs.</h5>
+    <section id="isso-thread"></section>
     <noscript>
-        <p>Les commentaires de ce site utilisent Javascript</p>
-        <p>Comments require Javascript</p>
+      {{ _('Please enable JavaScript to view comments.') }}
     </noscript>
 {% endif %}
