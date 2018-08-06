@@ -124,6 +124,27 @@
         <li><a class="sc-{{ name }}" href="{{ link }}" target="_blank"><i class="fa fa-{{ name }}"></i></a></li>
         {% endfor %}
       </ul>
+
+      </br>
+      <ul class="list">
+        {% if 'fr' in extra_siteurls %}
+          <li>
+            <a href="{{ lang_siteurls.fr }}" target="_blank">
+            Version française du site
+            <img src="/images/flag_france.png" style="vertical-align: middle;"></img>
+            </a>
+          </li>
+        {% endif %}
+        {% if 'en' in extra_siteurls %}
+          <li>
+            <a href="{{ lang_siteurls.en }}" target="_blank">
+              English version of the site
+              <img src="/images/flag_uk.png" style="vertical-align: middle;"></img>
+              · <img src="/images/flag_usa.png" style="vertical-align: middle;"></img>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
     </div>
 
     {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.aside %}

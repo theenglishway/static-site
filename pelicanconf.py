@@ -30,8 +30,14 @@ OG_LOCALE = 'fr_FR'
 LOCALE = 'fr_FR'
 
 I18N_SUBSITES = {
-    'fr': {},
-    'en': {}
+    'fr': {
+        'THEME_STATIC_DIR': 'themes',
+        'STATIC_PATHS': ['images']
+    },
+    'en': {
+        'THEME_STATIC_DIR': 'themes',
+        'STATIC_PATHS': ['images']
+    }
 }
 
 # Feed generation is usually not desired when developing
@@ -69,6 +75,7 @@ DEFAULT_PAGINATION = False
 THEME = 'themes/Flex'
 DEFAULT_DATE = 'fs'
 STATIC_PATHS = ['images']
+THEME_STATIC_DIR = 'themes'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
