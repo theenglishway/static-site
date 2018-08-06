@@ -1,3 +1,4 @@
+Slug: un-blog-pour-quoi-faire
 Title: Un blog, pour quoi faire ?
 Category: 3615 ma vie mon oeuvre
 Tags: 3615, meta
