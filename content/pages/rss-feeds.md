@@ -1,6 +1,8 @@
+slug: rss-feeds
 title: Flux RSS
 status: published
 priority: 5
+lang: fr
 
 ---
 

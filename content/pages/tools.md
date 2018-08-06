@@ -1,6 +1,8 @@
+slug: tools
 title: Trousse à outils
 status: published
 priority: 2
+lang: fr
 
 ---
 

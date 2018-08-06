@@ -1,6 +1,8 @@
+slug: about
 title: À propos
 status: published
 priority: 1
+lang: fr
 
 ---
 
