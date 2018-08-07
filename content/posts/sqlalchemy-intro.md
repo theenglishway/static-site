@@ -1,3 +1,4 @@
+Slug: sqlalchemy-intro
 Title: SQLAlchemy, c'est pas sorcier !
 Category: Le développement web pour les nuls
 Tags: développement, SQLAlchemy, Python, web
