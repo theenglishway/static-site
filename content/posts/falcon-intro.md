@@ -1,3 +1,4 @@
+Slug: falcon-intro
 Title: Cure de minceur avec Falcon
 Category: Je tisse ma toile
 Tags: développement, Falcon, Python, web, un peu compliqué quand même
