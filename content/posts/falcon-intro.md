@@ -208,7 +208,7 @@ l'intègre comme on veut !
 D'autres articles à suivre, donc !
 
 
-[erasing-all]: {filename}/content/on-efface-tout.md
+[erasing-all]: {filename}on-efface-tout.md
 [falcon-logo]: {filename}/images/falcon_logo.svg
 [falcon-install]: https://falcon.readthedocs.io/en/stable/user/install.html#install
 [httpie]: https://github.com/jkbr/httpie
