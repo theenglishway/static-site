@@ -1,11 +1,12 @@
 Slug: sqlalchemy-intro
 Title: SQLAlchemy, c'est pas sorcier !
-Category: Le développement web pour les nuls
-Tags: développement, SQLAlchemy, Python, web
-Summary:
+Category: Je tisse ma toile
+Tags: développement, SQLAlchemy, Python, web, un peu compliqué quand même
+Summary: Premier contact avec SQLAlchemy
+Created: 2018/08/10 08:00
 Image: /images/sqlalchemy_logo.png
 Lang: fr
-Status: draft
+Status: published
 
 ___
 
@@ -15,7 +16,7 @@ Après plusieurs mois à me reposer sur l'ORM de Django, voici venu le temps de 
 frotter à quelquechose d'un peu plus conséquent : la Rolls de l'ORM Python,
 SQLAlchemy.
 
-# Initialisation
+## Initialisation
 
 Voilà quelquechose dont je m'étais fait une montagne en survolant la
 documentation, et qui n'est pourtant pas si complexe que cela quand on
@@ -131,7 +132,7 @@ Voici à quoi ressemble le fichier complet :
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
 
-# Utilisation basique
+## Utilisation basique
 
 Maintenant que l'on a une belle base de données avec une table vide, il ne reste
 plus qu'à l'utiliser. Contrairement à Django qui faisait beaucoup pour nous dans
@@ -159,7 +160,8 @@ Un exemple vaut mille mots :
     # ... dans laquelle on ajoute un utilisateur
     In [2]: session.add(User(name="way", fullname="theenglishway"))
 
-    # Une query fait bien apparaître ce nouvel utilisateur
+    # Une requëte faite dans cette session fait bien apparaître ce nouvel
+    # utilisateur
     In [3]: session.query(User).all()
     Out[3]: [<User(name='way', fullname='theenglishway')>]
 
@@ -177,14 +179,19 @@ Un exemple vaut mille mots :
     In [7]: session2.query(User).all()
     Out[7]: [<User(name='way', fullname='theenglishway')>]
 
-# Le cas des frameworks web
+## Le cas des frameworks web
 
 Petite subtilité importante à noter à propos des sessions utilisées dans le
 cadre d'un framework web qui traite les requêtes en utilisant un thread donné :
 il faut alors utiliser des [**_scoped sessions_**][sqlalchemy-sessions].
 
+De manière générale, SQLAlchemy est encore plus puissant et subtil qu'il est
+possible de le concevoir au premier abord, et il est donc essentiel d'aller
+jeter un oeil à sa [documentation extrêmement complète] ... et évidemment, aux
+futurs articles que j'écrirai sur le sujet !
 
 [sqlalchemy-django]: http://lucumr.pocoo.org/2011/7/19/sqlachemy-and-you/
 [sqlalchemy-tutorial]: https://docs.sqlalchemy.org/en/latest/orm/tutorial.html
 [sqlalchemy-logo]: /images/sqlalchemy_logo.png
 [sqlalchemy-sessions]: http://docs.sqlalchemy.org/en/latest/orm/contextual.html#using-thread-local-scope-with-web-applications
+[sqlqlchemy-doc]: https://docs.sqlalchemy.org/en/

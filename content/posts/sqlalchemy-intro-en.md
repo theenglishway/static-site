@@ -1,11 +1,12 @@
 Slug: sqlalchemy-intro
 Title: SQLAlchemy is no sorcery !
-Category: Le développement web pour les nuls
-Tags: développement, SQLAlchemy, Python, web
-Summary:
+Category: Je tisse ma toile
+Tags: développement, SQLAlchemy, Python, web, un peu compliqué quand même
+Summary: A first contact with SQLAlchemy
+Created: 2018/08/10 08:00
 Image: /images/sqlalchemy_logo.png
 Lang: en
-Status: draft
+Status: published
 
 ___
 
@@ -62,8 +63,8 @@ table name, primary key, ...)
         name = Column(String)
         fullname = Column(String)
 
-All the information provided there are aggregated into the *Base* whose
-"metadata" field that now be used to assemble the whole puzzle (database
+All the information provided there is aggregated into the *Base* whose
+"metadata" field can now be used to assemble the whole puzzle (database
 connection and schema declaration).
 
     :::python
@@ -77,7 +78,7 @@ create instances of user defined classes :
     In [1]: user = User(name="way", fullname="theenglishway")
     Out [1]: <User(name='way', fullname='theenglishway')>
 
-... but those instances cannot be directly sent into the database yet (Django's
+... but those instances could not be directly sent into the database yet (Django's
 ORM would have already allowed you to call `user.save()`). You will need another
 kind of object for that, which is at the heart of SQLAlchemy, the *session* ;
 the session basically makes the connection to the database, and any transaction
@@ -150,7 +151,7 @@ An example is worth a thousand words :
     # ... in which a user is added
     In [2]: session.add(User(name="way", fullname="theenglishway"))
 
-    # A query returns that user
+    # A query within that session returns that user
     In [3]: session.query(User).all()
     Out[3]: [<User(name='way', fullname='theenglishway')>]
 
@@ -175,8 +176,15 @@ environment of a web framework that handles request in a given thread : one
 should take care to use [**_scoped sessions_**][sqlalchemy-sessions]
 in that case.
 
+As a general rule, SQLAlchemy is usually even more powerful and subtle than you
+might imagine, so browsing through the
+[incredibly complete documentation][sqlalchemy-doc] is a must-read before
+anything ... and, of course, future articles of mine that will touch on that
+subject !
+
 
 [sqlalchemy-django]: http://lucumr.pocoo.org/2011/7/19/sqlachemy-and-you/
 [sqlalchemy-tutorial]: https://docs.sqlalchemy.org/en/latest/orm/tutorial.html
 [sqlalchemy-logo]: /images/sqlalchemy_logo.png
 [sqlalchemy-sessions]: http://docs.sqlalchemy.org/en/latest/orm/contextual.html#using-thread-local-scope-with-web-applications
+[sqlqlchemy-doc]: https://docs.sqlalchemy.org/en/
