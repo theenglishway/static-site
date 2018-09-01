@@ -82,5 +82,5 @@ Cheers !
 
 [confused]: {filename}/images/confused.gif
 [feed]: /feeds/all.atom.xml
-[flux-rss]: /pages/flux-rss.html
+[flux-rss]: {filename}/pages/rss-feeds-en.md
 [flux-rss-pour-les-nuls]: https://www.youtube.com/watch?v=smdlRrXasjg
