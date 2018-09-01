@@ -12,6 +12,12 @@ ___
 
 Comme je le disais dans [mon premier article][blog-first], me voilà donc lancé
 depuis plusieurs mois dans un grand projet de plateforme web ... Le premier
-petit obstacle que j'ai rencontré a été ma TOTALE méconnaissance du domaine
+petit obstacle que j'ai rencontré a été ma TOTALE méconnaissance du domaine, qui
+paraissait pourtant assez simple selon les stéréotypes acquis dans mon ancien
+domaine professionnel.
+
+Et pourtant ...
+
+
 
 [blog-first]: {filename}blog-pour-quoi.md
