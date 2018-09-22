@@ -13,16 +13,20 @@ FAVICON = '/images/favicon.ico'
 
 BROWSER_COLOR = '#333'
 
-ROBOTS = 'index, follow'
-
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
 PLUGIN_PATHS = [u'pelican-plugins']
-PLUGINS = ['i18n_subsites', 'representative_image']
+PLUGINS = ['i18n_subsites', 'representative_image', 'sitemap']
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+
+ROBOTS = 'index, follow'
+SITEMAP = {
+    'format': 'xml',
+    'exclude': ['tag/', 'category/']
+}
 
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'fr'
@@ -74,7 +78,10 @@ CC_LICENSE = {
 DEFAULT_PAGINATION = False
 THEME = 'themes/Flex'
 DEFAULT_DATE = 'fs'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra/robots.txt']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+}
 THEME_STATIC_DIR = 'themes'
 
 # Uncomment following line if you want document-relative URLs when developing
