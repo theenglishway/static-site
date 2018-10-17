@@ -1,7 +1,7 @@
 Slug: log-0
 Title: Journal de bord, entrée #0
 Category: Journal de bord
-Tags: journal
+Tags: journal, business, 3615
 Date: 2018-10-04 13:00
 Summary: Allez, on s'y remet
 Image: /images/journal.png
