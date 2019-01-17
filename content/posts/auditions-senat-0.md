@@ -25,10 +25,14 @@ la consultation de quelques articles de presse ou résumés médiatiques en
 fait parfois partie. 
 
 J'ai donc suivi **le dernier épisode du feuilleton Benalla**
-en regardant en direct l'intégralité des auditions auprès de la Commission des 
-Lois du Sénat de 3 personnalités de premier rang ; 4 heures de visionnage et 
-de prises de notes, rendues possible par la diffusion en direct de TOUS les 
-débats et travaux des commissions de nos deux assemblées sur leur site respectif. 
+en regardant en direct l'intégralité [des auditions auprès de la Commission des 
+Lois du Sénat de 3 personnalités de premier rang][auditions] ; 4 heures de visionnage et 
+de prises de notes, rendues possible par la **diffusion en direct de TOUS les 
+débats et travaux** des commissions de nos deux assemblées sur leur site respectif
+(qui permettent aussi bien pour [l'Assemblée][assemblee] que [le Sénat][senat] 
+de revoir toutes les archives disponibles, ainsi 
+que l'intégralité des dossiers sur les débats en cours, rapports des 
+commissions, etc.). 
 C'est un exercice assez exigeant et pas forcément des plus passionnants, mais 
 il vaut le coup de le faire au moins une fois, à mon avis, pour bien saisir 
 la teneur de ce qui s'y dit, généralement en décalage avec ce qui en est 
@@ -296,6 +300,9 @@ Alexandre Benalla de voyager de manière frauduleuse
 
 Soit la réalité est encore plus ridicule et honteuse que cela.
 
+[auditions]: http://videos.senat.fr/video.982414_5c3d1b26bf642.audition-de-m-patrick-strzoda-directeur-de-cabinet-du-president-de-la-republique
+[assemblee]: http://www.assemblee-nationale.fr/
+[senat]: https://www.senat.fr/
 [passeport_diplo]: https://ants.gouv.fr/Les-titres/Passeports/Passeport-diplomatique
 [passeport_service]: https://ants.gouv.fr/Les-titres/Passeports/Passeport-de-service
 [note_verbale]: https://en.wikipedia.org/wiki/Note_verbale 
